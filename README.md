@@ -2,6 +2,9 @@
 1) scaffold; no actual content<br>
 2) includes animate_screen, animate_and_text_screen, and text_and_animate_screen<br>
 
+# Official Google Play Store Link
+https://play.google.com/store/apps/details?id=usbong.android.ping_pong&hl=en
+
 # Official Company Website
 http://www.usbong.ph
 
