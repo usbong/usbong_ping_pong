@@ -6,6 +6,9 @@ public class UsbongConstants {
     private UsbongConstants() {
 
     }
+    
+    //added by Mike, 20170303
+    public static final int ANIMATION_DELAY = 100; //500
     	
     //SCREEN types constants
 	public static final int YES_NO_DECISION_SCREEN=0;	

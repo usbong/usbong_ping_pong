@@ -781,10 +781,10 @@ public class UsbongScreenProcessor
 						//do invalidate
 						myAnimateImageView.invalidate();
 						
-						mRedrawHandler.postDelayed(this, 500);
+						mRedrawHandler.postDelayed(this, UsbongConstants.ANIMATION_DELAY);
 	                }
 	            };
-			    mRedrawHandler.postDelayed(doAnimation, 500);
+			    mRedrawHandler.postDelayed(doAnimation, UsbongConstants.ANIMATION_DELAY);
 			}
 		} else if (udtea.currScreen == UsbongConstants.ANIMATE_AND_TEXT_SCREEN) {
 			udtea.setContentView(R.layout.animate_and_text_screen);
@@ -828,10 +828,10 @@ public class UsbongScreenProcessor
 						//do invalidate
 						myAnimateImageView.invalidate();
 						
-						mRedrawHandler.postDelayed(this, 500);
+						mRedrawHandler.postDelayed(this, UsbongConstants.ANIMATION_DELAY);
 	                }
 	            };
-			    mRedrawHandler.postDelayed(doAnimation, 500);
+			    mRedrawHandler.postDelayed(doAnimation, UsbongConstants.ANIMATION_DELAY);
 			}
 			
 			/**
